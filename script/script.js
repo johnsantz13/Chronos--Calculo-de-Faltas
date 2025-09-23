@@ -17,7 +17,7 @@ function next() {
     window.location.href = 'start.html'
 }
 function nxt() {
-    window.location.href = 'index.html'
+    window.location.href = 'calculos.html'
 }
 function nex() {
     window.location.href = 'gerencia.html'
@@ -42,7 +42,7 @@ function Cal() {
 }
 
 function reset() {
-    location.href = "index.html"
+    location.href = "calculos.html"
 }
 function resett() {
     location.href = "gerencia.html"

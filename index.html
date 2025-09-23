@@ -1,47 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculo de Horario</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Chronus - Calculo de Faltas</title>
+    <link rel="stylesheet" href="/estilos/style.css">
      <link rel="shortcut icon" href="imagem/android-chrome-192x192.png" type="image/x-icon">
 </head>
-
-<body id="inicio">
-    <a href="home.html">
-        <img src="imagem/Gemini_Generated_Image_1oxdv81oxdv81oxd-removebg-preview.png" alt="logo" id="logo2">
-    </a>
-
-    <main id="tela-cal">
-        <h3>PREENCHA OS CAMPOS PARA O CALCULO</h3>
-        <br>
-        <form action="" method="post">
-            <Label for="md">Qual a Carga Horaria do Modulo</Label>
-            <br>
-            <input type="number" name="md" id="md">
-            <br>
-            <br>
-            <label for="hr">Qual a quantidade de horas ao dia</label>
-            <br>
-            <input type="number" name="hr" id="hr">
-        </form>
-        <br>
-        <button onclick="Calc()">Calcular</button>
-        <br>
-        <button onclick="reset()">Limpar</button>
-        <br>
-        <br>
-        <div id="quadro">
-            <div id="resch">
-            </div>
-            <br>
-            <div id="resdias">
-            </div>
-        </div>
-    </main>
+<body>
+    <div id="logo">
+        <img src="imagem/Gemini_Generated_Image_1oxdv81oxdv81oxd-removebg-preview.png" alt="logo">
+    </div>
+    <h1 id="titulo-home">Bem Vindo(a) ao Chronus!</h1>
+    <button onclick="next()" id="butao-home">ENTRAR</button>
     <script src="script/script.js"></script>
 </body>
-
 </html>
