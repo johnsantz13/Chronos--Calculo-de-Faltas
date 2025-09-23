@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de faltas</title>
+    <link rel="stylesheet" href="/estilos/style.css">
+     <link rel="shortcut icon" href="imagem/android-chrome-192x192.png" type="image/x-icon">
+</head>
+
+<body id="grc">
+    <a href="home.html">
+        <img src="imagem/Gemini_Generated_Image_1oxdv81oxdv81oxd-removebg-preview.png" alt="logo" id="logo2">
+    </a>
+    <main id="tela-cal">
+        <form action="" method="post">
+            <Label for="md2">Qual a Carga Horaria do Modulo</Label>
+            <br>
+            <input type="number" name="md2" id="md2">
+            <br>
+            <br>
+            <label for="prd">Quantos Dias Perdidos</label>
+            <br>
+            <input type="number" name="prd" id="prd">
+            <br><br>
+            <label for="hrs">Quantas aulas</label>
+            <br>
+            <input type="number" name="hrs" id="hrs">
+        </form>
+        <br>
+        <button onclick="Cal()">Calcular</button>
+        <button onclick="resett()">Limpar</button>
+        <br>
+        <br>
+        <div id="quadro">
+            <div id="rescarg">
+            </div>
+            <br>
+            <div id="resprd">
+            </div>
+        </div>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

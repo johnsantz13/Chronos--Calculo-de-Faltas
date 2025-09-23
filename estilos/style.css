@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #1D2BA3, #12192d);
+}
+
+#inicio{
+    height: 100vh;
+    background: linear-gradient(to bottom, #1D2BA3, #12192d);
+}
+#logo img {
+    width: 400px;
+    display: flex;
+    margin: 0% auto;
+}
+
+#titulo-home {
+    text-align: center;
+    color: #C45729;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30pt;
+}
+
+#butao-home {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13pt;
+    display: flex;
+    margin: 0% auto;
+    padding: 20px;
+    margin-top: 55px;
+    width: 105px;
+    border-radius: 20px;
+    border: none;
+    background-color: #C45729;
+    color: white;
+}
+
+#butao-2,
+#butao-3 {
+    font-size: 15pt;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #C45729;
+    color: #fff;
+}
+
+#tela-cal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: #C45729;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#tela-cal input {
+    border: none;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
+#tela-cal button {
+    font-size: 15pt;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #C45729;
+    color: #fff;
+}
+
+#quadro{
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #C45729;
+    color: #fff;
+}
+
+#logo2{
+    width: 150px;
+}
